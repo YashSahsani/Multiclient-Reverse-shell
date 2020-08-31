@@ -20,8 +20,8 @@ packaging==20.4
 pefile==2019.4.18
 Pillow==7.2.0
 pipwin==0.5.0
-PyAudio @ file:///C:/Users/Sneha/pipwin/PyAudio-0.2.11-cp37-cp37m-win32.whl
 PyAutoGUI==0.9.50
+PyAudio=0.2.11
 pycparser==2.20
 PyGetWindow==0.0.8
 pyinstaller==4.0
