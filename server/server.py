@@ -100,7 +100,7 @@ class MultiServer(object):
     def start_turtle(self):
         """ Interactive prompt for sending commands remotely """
         while True:
-            cmd = input('meterpreter>')
+            cmd = input('shell>')
             if cmd == 'list':
                 self.list_connections()
                 continue
