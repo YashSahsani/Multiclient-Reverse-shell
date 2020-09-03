@@ -24,7 +24,6 @@ with open(input_file, 'rb') as f:
 fernet = Fernet(key)
 encrypted = fernet.encrypt(data)
 payload = base64.b64encode(encrypted) 
-print(payload)
 with open("encrpted_payload.txt","wb") as file_to_write:
           file_to_write.write(payload)
 file_to_write.close() 
